@@ -24,7 +24,6 @@ def home():
 
 @app.route("/movie", methods=["POST"])
 def movie_post():
-    # sample_receive = request.form['sample_give']
     url_receive = request.form['url_give']
     star_receive = request.form['star_give']
     comment_receive = request.form['comment_give']
